@@ -1,0 +1,13 @@
+/* src/index.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Estilos personalizados */
+@media (min-width: 768px) {
+  /* Estilos para pantallas medianas */
+}
+
+@media (min-width: 1024px) {
+  /* Estilos para pantallas grandes */
+}
