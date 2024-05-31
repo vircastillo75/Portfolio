@@ -9,7 +9,6 @@ const Technologies = () => {
   const [showIcons, setShowIcons] = useState(false);
 
   useEffect(() => {
-   
     const timeout = setTimeout(() => setShowIcons(true), 400);
     return () => clearTimeout(timeout);
   }, []);
@@ -40,10 +39,9 @@ const Technologies = () => {
       initial="hidden"
       animate={showIcons ? "visible" : "hidden"}
       transition={{ staggerChildren: 0.2 }}
-      className="flex flex-wrap justify-center gap-4 mt-16 mb-8" 
+      className="flex flex-wrap justify-center gap-4 mt-16 mb-8 md:justify-start md:gap-8"
     >
-    
-      <div className="flex justify-center w-full mt-16"> 
+      <div className="flex flex-wrap justify-center w-full md:w-auto mt-16 md:mt-0 mx-auto"> {/* Ajuste aquí */}
         {firstLineIcons.map((icon, index) => (
           <motion.div
             key={index}
@@ -58,7 +56,7 @@ const Technologies = () => {
         ))}
       </div>
   
-      <div className="flex justify-center w-full">
+      <div className="flex flex-wrap justify-center w-full md:w-auto mx-auto"> {/* Ajuste aquí */}
         {secondLineIcons.map((icon, index) => (
           <motion.div
             key={index}
