@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Portfolio/static/css/main.fe5d4550.css",
+    "main.js": "/Portfolio/static/js/main.e3bb0b82.js",
+    "static/media/Aboutme.jpeg": "/Portfolio/static/media/Aboutme.23d6116bda287036d2c7.jpeg",
+    "static/media/CrianzaSanaCuyo.jpg": "/Portfolio/static/media/CrianzaSanaCuyo.3f0144c5738f5f7d02b3.jpg",
+    "index.html": "/Portfolio/index.html",
+    "main.fe5d4550.css.map": "/Portfolio/static/css/main.fe5d4550.css.map",
+    "main.e3bb0b82.js.map": "/Portfolio/static/js/main.e3bb0b82.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fe5d4550.css",
+    "static/js/main.e3bb0b82.js"
+  ]
+}
