@@ -25,6 +25,19 @@ const About = () => {
       <br />
       <h4 className="text-xl md:text-2xl lg:text-3xl font-bold mt-4">Education</h4>
       
+      <div className="mt-4 flex flex-col items-center w-full max-w-3xl text-center">
+        <img 
+          src="https://media.licdn.com/dms/image/C4D0BAQG6fJDrblcY9A/company-logo_100_100/0/1656698101589/henryok_logo?e=1724889600&v=beta&t=EfZyWV93Go6_DK5Hl3LGpjQgZXxCq-cKH70MQfHTh7o" 
+          alt="Henry Logo" 
+          className="w-16 h-16 mr-4 rounded-full"
+        />
+        <div>
+          <p className="text-lg font-bold">Henry</p>
+          <p>Bootcamp Full Stack Developer</p>
+          <p>Fecha de finalización: jun. 2023 - mar. 2024</p>
+          <p>Titulación: Fullstack Developer</p>
+        </div>
+      </div>
    
       <div className="mt-4 flex flex-col items-center w-full max-w-3xl text-center">
         <img 
@@ -35,7 +48,7 @@ const About = () => {
         <div>
           <p className="text-lg font-bold">Universidad Champagnat</p>
           <p>Facultad de Derecho</p>
-          <p>mar. 2004 - abr. 2024</p>
+          <p>mar. 2014 - abr. 2024</p>
           <p>Titulación: Abogada</p>
         </div>
       </div>
@@ -56,19 +69,7 @@ const About = () => {
       </div>
 
      
-      <div className="mt-4 flex flex-col items-center w-full max-w-3xl text-center">
-        <img 
-          src="https://media.licdn.com/dms/image/C4D0BAQG6fJDrblcY9A/company-logo_100_100/0/1656698101589/henryok_logo?e=1724889600&v=beta&t=EfZyWV93Go6_DK5Hl3LGpjQgZXxCq-cKH70MQfHTh7o" 
-          alt="Henry Logo" 
-          className="w-16 h-16 mr-4 rounded-full"
-        />
-        <div>
-          <p className="text-lg font-bold">Henry</p>
-          <p>Bootcamp Full Stack Developer</p>
-          <p>Fecha de finalización: jun. 2023 - mar. 2024</p>
-          <p>Titulación: Fullstack Developer</p>
-        </div>
-      </div>
+      
     </div>
   );
 };
