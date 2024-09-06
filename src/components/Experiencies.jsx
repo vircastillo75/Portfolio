@@ -1,6 +1,10 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import CrianzaSanaCuyo from '../assets/CrianzaSanaCuyo.jpg';
+import soyHenry from '../assets/henryok_logo.jpeg';
+import swagelok from '../assets/swagelok_logo.jpeg';
+import bonafide from '../assets/bonafidesaic_logo.jpeg';
+
 
 const experiences = [
   {
@@ -14,7 +18,7 @@ const experiences = [
   },
   
   {
-    img: 'https://media.licdn.com/dms/image/C4D0BAQG6fJDrblcY9A/company-logo_100_100/0/1656698101589/henryok_logo?e=1724889600&v=beta&t=EfZyWV93Go6_DK5Hl3LGpjQgZXxCq-cKH70MQfHTh7o',
+    img: soyHenry,
     title: 'Full Stack Developer',
     company: 'PinkPanther - indumentaria deportiva · Profesional independiente',
     duration: 'may. 2024 - may. 2024 · 1 mes',
@@ -24,7 +28,7 @@ const experiences = [
   },
 
   {
-    img: 'https://media.licdn.com/dms/image/C4E0BAQF8BnXuyFhtkA/company-logo_100_100/0/1630586622875/swagelok_logo?e=1724889600&v=beta&t=IxWnU9bVktejJ_JSrRiQVMsK6CvGbtSYkheX5AxL7xE',
+    img: swagelok,
     title: 'Jefa de operaciones',
     company: 'Swagelok · Jornada completa',
     duration: 'abr. 2019 - ago. 2022 · 3 años 5 meses',
@@ -34,7 +38,7 @@ const experiences = [
   },
 
     {
-    img: 'https://media.licdn.com/dms/image/C4D0BAQGrD_oL2H3DaA/company-logo_100_100/0/1635445959795/bonafidesaic_logo?e=1724889600&v=beta&t=v3LcOFcBmJYnpQ3CRlv-asBpeFreIM5DOG1AgXMUSPU',
+    img: bonafide,
     title: 'Jefe de sucursal',
     company: 'Bonafide Argentina · Jornada completa',
     duration: 'jul. 2017 - mar. 2019 · 1 año 9 meses',

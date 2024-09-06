@@ -1,5 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import aboutMeImage from '../assets/Aboutme.jpeg';
+import soyHenry from '../assets/henryok_logo.jpeg';
+import champagnat from '../assets/universidad_champagnat_logo.jpeg';
 
 const About = () => {
   const [imageLoaded, setImageLoaded] = useState(false);
@@ -27,7 +29,7 @@ const About = () => {
       
       <div className="mt-4 flex flex-col items-center w-full max-w-3xl text-center">
         <img 
-          src="https://media.licdn.com/dms/image/C4D0BAQG6fJDrblcY9A/company-logo_100_100/0/1656698101589/henryok_logo?e=1724889600&v=beta&t=EfZyWV93Go6_DK5Hl3LGpjQgZXxCq-cKH70MQfHTh7o" 
+          src= {soyHenry} 
           alt="Henry Logo" 
           className="w-16 h-16 mr-4 rounded-full"
         />
@@ -41,7 +43,7 @@ const About = () => {
    
       <div className="mt-4 flex flex-col items-center w-full max-w-3xl text-center">
         <img 
-          src="https://media.licdn.com/dms/image/C4D0BAQHxq9oq52ehKA/company-logo_200_200/0/1630576208270/universidad_champagnat_logo?e=1724889600&v=beta&t=B65vhQ8-E7qZlkVJ7YQds5Y-nN2ri3NkBHKgZJ7O3Ds" 
+          src={champagnat}
           alt="Universidad Champagnat Logo" 
           className="w-20 h-20 mr-4 rounded-full" // Cambia w-16 h-16 a w-20 h-20
         />
@@ -56,7 +58,7 @@ const About = () => {
       
       <div className="mt-4 flex flex-col items-center w-full max-w-3xl text-center">
         <img 
-          src="https://media.licdn.com/dms/image/C4D0BAQHxq9oq52ehKA/company-logo_200_200/0/1630576208270/universidad_champagnat_logo?e=1724889600&v=beta&t=B65vhQ8-E7qZlkVJ7YQds5Y-nN2ri3NkBHKgZJ7O3Ds" 
+          src={champagnat} 
           alt="Universidad Champagnat Logo" 
           className="w-20 h-20 mr-4 rounded-full" // Cambia w-16 h-16 a w-20 h-20
         />
