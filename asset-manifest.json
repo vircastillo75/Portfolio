@@ -1,15 +1,18 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.4d0dd858.css",
-    "main.js": "/Portfolio/static/js/main.f2c3b4a9.js",
+    "main.js": "/Portfolio/static/js/main.610c6672.js",
+    "static/media/MacBook Pro-1725637254155.jpeg": "/Portfolio/static/media/MacBook Pro-1725637254155.699074f9115e1120a972.jpeg",
+    "static/media/MacBook Pro-1725660189977.jpeg": "/Portfolio/static/media/MacBook Pro-1725660189977.8ba4dae009a03b6dc9b4.jpeg",
+    "static/media/MacBook Pro-1725659071559.jpeg": "/Portfolio/static/media/MacBook Pro-1725659071559.a77910884545ff32e6e7.jpeg",
     "static/media/Aboutme.jpeg": "/Portfolio/static/media/Aboutme.23d6116bda287036d2c7.jpeg",
     "static/media/CrianzaSanaCuyo.jpg": "/Portfolio/static/media/CrianzaSanaCuyo.3f0144c5738f5f7d02b3.jpg",
     "index.html": "/Portfolio/index.html",
     "main.4d0dd858.css.map": "/Portfolio/static/css/main.4d0dd858.css.map",
-    "main.f2c3b4a9.js.map": "/Portfolio/static/js/main.f2c3b4a9.js.map"
+    "main.610c6672.js.map": "/Portfolio/static/js/main.610c6672.js.map"
   },
   "entrypoints": [
     "static/css/main.4d0dd858.css",
-    "static/js/main.f2c3b4a9.js"
+    "static/js/main.610c6672.js"
   ]
 }
